@@ -1,1 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XSS Demo</title>
+</head>
+<body>
+  <h2>Comment Box (vulnerable)</h2>
+  <form id="commentForm">
+    <input type="text" id="comment" placeholder="Enter comment" />
+    <button type="submit">Submit</button>
+  </form>
+  <div id="output"></div>
+
+  <script src="xss_detector.js"></script>
+</body>
+</html>
 
